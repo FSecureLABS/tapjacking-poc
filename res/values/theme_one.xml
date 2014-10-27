@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="btnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/WhiteSmoke</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/button_default_custom</item>
+        <item name="android:layout_marginLeft">3sp</item>
+        <item name="android:layout_marginRight">3sp</item>
+    </style>
+    <style name="lblStyle">
+        <item name="android:textColor">@color/WhiteSmoke</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginTop">10sp</item>
+    </style>
+    <style name="edtNumberStyle">
+        <item name="android:textColor">@color/DarkTurquoise</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginTop">10sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/edit_text_default</item>
+        <item name="android:paddingLeft">20sp</item>
+        <item name="android:textColorHint">@color/LightGrey</item>
+    </style>
+</resources>
