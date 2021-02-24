@@ -18,6 +18,15 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
+	
+	@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
+    // get the root view and activate touch filtering to prevent tap jacking
+    View v = findViewById(android.R.id.content);
+    v.setFilterTouchesWhenObscured(true);
+}
 
 	private static int SEEK_MAX = 100;
 
